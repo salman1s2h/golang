@@ -1,0 +1,8 @@
+2025/02/21 database.go:22: trying to connect to the database 1 times-> failed to connect to `host=localhost user=admin database=contactsdb`: dial error (dial tcp 127.0.0.1:5432: connect: connection refused)
+2025/02/21 database.go:22: trying to connect to the database 2 times-> failed to connect to `host=localhost user=admin database=contactsdb`: dial error (dial tcp 127.0.0.1:5432: connect: connection refused)
+2025/02/21 database.go:22: trying to connect to the database 3 times-> failed to connect to `host=localhost user=admin database=contactsdb`: dial error (dial tcp 127.0.0.1:5432: connect: connection refused)
+2025/02/21 database.go:22: trying to connect to the database 4 times-> failed to connect to `host=localhost user=admin database=contactsdb`: dial error (dial tcp 127.0.0.1:5432: connect: connection refused)
+2025/02/21 contact.go:41: ERROR: duplicate key value violates unique constraint "uni_contacts_email" (SQLSTATE 23505)
+2025/02/21 contact.go:73: no data found with the following id:10
+2025/02/21 contact.go:73: no data found with the following id:2
+2025/02/21 contact.go:92: record not found
